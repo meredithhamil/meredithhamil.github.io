@@ -1,0 +1,19 @@
+body {
+	color:orange;
+	background-color: #4F7F3D;
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	color:pink;
+	font-family: Times, serif;
+	
+}
+
+p {
+	color:lime;
+}
+h3 {font-size: 8px;
+	opacity: 0.5;
+
+}

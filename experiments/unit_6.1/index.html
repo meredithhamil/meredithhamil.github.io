@@ -3,8 +3,9 @@
 <html>
 	<head>
         	<meta charset="UTF-8">
-		<title>Meredith Hamilton, award-winning illustrator for print and digital </title>
+		        <title>Meredith Hamilton, award-winning illustrator for print and digital </title>
 	        <link href="style.css" type="text/css" rel="stylesheet">
+            <link href="reset.css" type="reset/css" rel="stylesheet">
 
 	        <style>
             @import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans');
@@ -13,18 +14,24 @@
 	</head>
 
 
-	<body>
-	<div id="wrapper">
-	
+<body>
+
+
+
 	   <div class="header">
+
+         <img class="sign">
          <img src="images/master_signature2.jpg"
           alt="Meredith Hamilton"
           title="Signature">
-       </div>
-		
-		<nav id="contact">
 
-        <a href="mailto:meredithhamil@gmail.com?Subject=Hello%20again" target="_top">Contact</a>
+		
+		<nav id="intouch">
+
+        <a href="mailto:meredithhamil@gmail.com?Subject=Hello%20again" target="_top">
+        <h2>Contact</h2>
+        </a>
+
         </nav>
 			
 
@@ -33,11 +40,14 @@
        	<div class="desktop">
 		   <h1>Illustrator and visual storyteller with a love for copperplate writing,<br> paper ephemera, and technology.</h1>
  
-		 </div>
+	 </div>
 
 
 
-	<aside>
+<section id="two-column" class=clearfix>
+
+
+	<aside id=left>
 		<section id="work">
 			<h2>Work</h2>
 			<p>My distinctive illustrations have been used for everything from wine labels to mobile apps. Across this wide variety of platforms the art feels whimisical and handmade, as well as intentional and sophisticated.
@@ -55,45 +65,46 @@
 		</section>
 	</aside>
 
-	<main>	
-
+	<main id=right>	
 		<section id="projects">
 			<h2>Some projects</h2>
 
-			<div>
+			<div class="thumbnail">
 				<img src="images/amuse_bouche_wines.png"
         		 alt="Illustration for a wine label"
          		 title="Recent work for a Napa Valley Vineyard">
+         		 <width=60 pix>
+
 				
 				<p><span id="boldsubhed">Important Title or Catchy Comment</span> description of project, and something funny about it, or perhaps unique to it.</p>
 			</div>
 
-			<div>
+			<div class="thumbnail">
 				<img src="images/calder_classics.png" 
 				alt="Illustration for Calder Classics" 
 				title="Master image for foreign study company">
 				<p>Description of project, and something funny about it, or perhaps unique to it.</p>
 			</div>
 
-			<div>
+			<div class="thumbnail">
 				<img src="images/hachette_warhol.png"
         		 alt="Portrait of Andy Warhol"
          		 title="From a children's book on art">
          		<p>Description of project, and something funny about it, or perhaps unique to it.</p>
-         	</div>
-
-         	
-
-           </section>
+            </div> 	
+         </section>
+     </main>
 
 
 
+  
 
-			
-
-						<p><a href="#"></a>Back to top</p>
+		<div id=top>
+			<p><a href="#"></a>Back to top</p>
+        </div>
 
 	</main>
+
    </div>
           
   </body>

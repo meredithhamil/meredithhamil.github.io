@@ -1,18 +1,50 @@
+/*this is experiment*/
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 
 }
 
-.header {
+body {
+ margin:15,15,15,15;
+ padding-top: 50;
 
+}
+
+
+.header {
+  display:inline;
   margin-right:50px;
   margin-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
+  margin-bottom: 25px;
 }
 
+.sign {
+  margin-left:50px;
+  display:inline;
+  float:left;
+  width: 50%;
+  
+}
+
+#intouch {
+ float:right;
+  margin-right: 50px
+}
+
+.content{
+  display:inline-block;
+}
+
+
+
+
+/*nav{
+  padding-left: 50px;
+}*/
 
 .desktop {
 
@@ -20,43 +52,52 @@
   linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.1)
-    ),
+                  ),
+
   url(images/meredithh_desk.jpg);
   height: 400px;
   background-position: center center;
+  margin-top: 15px;
+}
+
+#work,#process,#about,#projects{
+
+  margin-bottom: 20px;
+  margin-top: 20px;
 
 }
 
-nav{
-	padding-left: 50px;
-}
-#work,#process,#about,#projects
-	margin-bottom: 20px;
-	margin-top: 20px;
-
-}
 
 
-#wrapper {
-
-	width:1080px;
-	margin-left:auto;
-	margin-right:auto;
-}
 
 aside{
-	margin-top: 50px;
-	margin-left: 50px;
+
+  display:inline;
+  margin-top: 50px;
+  margin-left: 50px;
     margin-right: 50px;
     width:25%;
     float:left;
+    clear:all;
 }
 
-main{
+main {
    
+    display: inline;
     margin-top: 50px;
     margin-right:50px;
-    float:right;}
+    float:right;
+  overflow: hidden}
+
+
+  #two_column {
+     background-color: #FFb7CF;
+     border: 1 ;
+  }
+
+  #projects {
+    display:inline-grid;
+  }
     
 
 /* unvisited link */
@@ -92,12 +133,12 @@ p {font-family: "Merriweather", serif;
     margin-bottom: 30px;
 }
 #boldsubhed{
-	font-family: "Merriweather Sans", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
     font-size: 1em;
     font-weight:800;
     font-variant:bold;
 }
-	
+  
 h2 {font-family: "Merriweather Sans", sans-serif;
     font-size:1em;
     font-weight:800;
@@ -111,17 +152,16 @@ h1 {font-family: "Merriweather Light Italic", serif;
     font-size: 1.5em;
     font-weight: lighter;
     font-family: "Merriweather", serif;
-	font-style: italic;
-	font-variant: lighter;
-	font-weight: 100; 
-	line-height: 1.8em;
-	letter-spacing: 0.0625em;
-	margin-left: 50px;
-	margin-top: 25px;
+  font-style: italic;
+  font-variant: lighter;
+  font-weight: 100; 
+  line-height: 1.8em;
+  letter-spacing: 0.0625em;
+  margin-left: 50px;
+  margin-top: 25px;
   position: absolute;
-  ;
-}
-    }
+  }
+    
 
 
  

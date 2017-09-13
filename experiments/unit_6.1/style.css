@@ -5,14 +5,77 @@
 
 }
 
-.header {
+body {
+ margin:15,15,15,15;
+ padding-top: 50;
 
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+.header {
+  display:inline;
   margin-right:50px;
   margin-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
+  margin-bottom: 25px;
 }
 
+.sign {
+  margin-left:50px;
+  display:inline;
+  float:left;
+  width: 50%;
+  
+}
+
+#intouch {
+ float:right;
+  margin-right: 50px
+}
+
+.content{
+  display:inline-block;
+}
+
+
+#two-column{
+  background-color: #FFB7CF;
+  border: 1 px black solid;
+  padding: 20px;
+}
+
+
+#left {
+  background-color: #E582A2;
+  border: 1 px black solid;
+  padding: 20 px;
+  float:left;
+  width:30%;
+}
+
+
+#right {
+  background-color: #E55B88;
+  border: 1 px black solid;
+  padding: 20 px;
+  float: right;
+  width:62%;
+}
+
+
+/*nav{
+	padding-left: 50px;
+}*/
 
 .desktop {
 
@@ -20,43 +83,52 @@
   linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.1)
-    ),
+                  ),
+
   url(images/meredithh_desk.jpg);
   height: 400px;
   background-position: center center;
-
+  margin-top: 15px;
 }
 
-nav{
-	padding-left: 50px;
-}
-#work,#process,#about,#projects
+#work,#process,#about,#projects{
+
 	margin-bottom: 20px;
 	margin-top: 20px;
 
 }
 
 
-#wrapper {
 
-	width:1080px;
-	margin-left:auto;
-	margin-right:auto;
-}
 
 aside{
-	margin-top: 50px;
+
+	display:inline;
+  margin-top: 50px;
 	margin-left: 50px;
     margin-right: 50px;
     width:25%;
     float:left;
+    clear:all;
 }
 
-main{
+main {
    
+    display: inline;
     margin-top: 50px;
     margin-right:50px;
-    float:right;}
+    float:right;
+  overflow: hidden}
+
+
+  #two_column {
+     background-color: #FFb7CF;
+     border: 1 ;
+  }
+
+  #projects {
+    display:inline-grid;
+  }
     
 
 /* unvisited link */
@@ -119,9 +191,8 @@ h1 {font-family: "Merriweather Light Italic", serif;
 	margin-left: 50px;
 	margin-top: 25px;
   position: absolute;
-  ;
-}
-    }
+  }
+    
 
 
  

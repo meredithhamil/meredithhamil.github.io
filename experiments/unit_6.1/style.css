@@ -48,6 +48,28 @@ body {
 }
 
 
+
+
+
+/*nav{
+	padding-left: 50px;
+}*/
+
+.desktop {
+
+  background-image:
+  linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.1)
+                  ),
+
+  url(images/meredithh_desk.jpg);
+  height: 400px;
+  background-position: center center;
+  margin-top: 15px;
+}
+
+
 #two-column{
   background-color: #FFB7CF;
   border: 1 px black solid;
@@ -71,26 +93,6 @@ body {
   float: right;
   width:62%;
 }
-
-
-/*nav{
-	padding-left: 50px;
-}*/
-
-.desktop {
-
-  background-image:
-  linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.1)
-                  ),
-
-  url(images/meredithh_desk.jpg);
-  height: 400px;
-  background-position: center center;
-  margin-top: 15px;
-}
-
 #work,#process,#about,#projects{
 
 	margin-bottom: 20px;
